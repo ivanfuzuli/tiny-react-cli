@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const {component-name} = ({ item }) => {
-  return <div></div>;
+const <%= it.name %> = ({ item }) => {
+  return <div>form.component</div>;
 };
 
-{component-name}.propTypes = {
+<%= it.name %>.propTypes = {
   item: PropTypes.string
 };
 
