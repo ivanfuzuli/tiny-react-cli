@@ -33,7 +33,7 @@ program
   .description("CLI tool for create react components")
   .version("0.0.1");
 
-const create = (name, ext, data, path = "src/components/") => {
+const create = (name, ext, data, path = "src/components") => {
   const filename = path + "/" + name + "." + ext;
   fse
     .outputFile(filename, data)

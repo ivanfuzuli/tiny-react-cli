@@ -1,16 +1,38 @@
 {
-  "name": "react-cli",
+  "name": "tiny-react-cli",
   "version": "1.0.0",
   "description": "React command line interface for component generation",
   "main": "./bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "bin": {
-    "hello": "./bin/index.js"
+    "react-cli": "./bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivanfuzuli/tiny-react-cli.git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "keywords": [
+    "cli",
+    "react",
+    "component",
+    "generator",
+    "js",
+    "typescript"
+  ],
   "author": "Can Küçükyılmaz",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanfuzuli/tiny-react-cli/issues"
+  },
+  "homepage": "https://github.com/ivanfuzuli/tiny-react-cli#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^9.1.0",
