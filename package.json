@@ -10,5 +10,10 @@
     "hello": "./bin/index.js"
   },
   "author": "Can Küçükyılmaz",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^9.1.0",
+    "conf": "^10.1.2"
+  }
 }
